@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-color: #FFF8F3 ;
+    background-image: url('../portfolio-resources/images/header_bg.png'), url(../portfolio-resources/images/developer.png);
+    background-repeat:no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+
+   /* header and nav title */
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-primary{
+    color: orangered;
+}
+.btn-primary{
+    color: white;
+    
+    font-weight: 700px;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    padding: 18px 35px;
+    
+    border: none;
+}
+
+/* Banner Style */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-subtitle{
+    font: size 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.semi-circle1{
+    background-color: #FD6E0A;
+    height: 518px;
+    width: 1036px;
+    border-radius: 518px 518px 0 0;
+}
+
+.semi-circle2{
+    af
+}
+.semi-circle3{
+    ad
+}
+
+/* About Section Styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-title{
+    
+    margin-bottom: 30px;
+}
+
+.about-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+
+}
