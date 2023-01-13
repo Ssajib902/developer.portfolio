@@ -40,7 +40,6 @@ nav li {
 
 .btn-primary {
     color: white;
-
     font-weight: 700px;
     font-size: 20px;
     height: 64px;
@@ -48,7 +47,6 @@ nav li {
     background: orangered;
     border: 0;
     padding: 18px 35px;
-
     border: none;
 }
 
@@ -135,9 +133,10 @@ main {
 }
 
 .section-description {
-    padding: 115px;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .box {
@@ -171,6 +170,7 @@ main {
 /* Resume */
 .resume-head {
     display: flex;
+    gap: 24px;
 }
 
 .education {
@@ -180,6 +180,8 @@ main {
 .resume-title {
     font-weight: 700;
     font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .resume-description {
@@ -190,5 +192,59 @@ main {
 .head1 {
     font-weight: 700;
     font-size: 30px;
-    padding-bottom: 30px;
+}
+
+.button2 {
+    text-align: center;
+}
+.btn-resume{
+    color: white;
+    font-weight: 700px;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    padding: 18px 35px;
+    border: none;
+    margin-top: 50px;
+}
+
+.submit-title {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 130px 200px;
+    background: #FFF8F3;
+    text-decoration: none;
+}
+
+.button3 {
+    color: white;
+    font-weight: 700px;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    padding: 18px 35px;
+    border: none;
+    margin-top: 50px;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.message {
+    margin: 30px;
 }
